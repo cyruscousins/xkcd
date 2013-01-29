@@ -1,0 +1,26 @@
+XKCD
+
+An experimental program created by Cyrus Cousins, using drawings by Randall Monroe.
+Visit xkcd.com
+
+This program utilizes an interesting 3D noise function for particles and a linear transformation system for world transforms (though currently I render points of a rotated object to the canvas, causing gaps in the image.  When I get around to it, points on the image should ask the rotated object for color value).
+
+This code is completely unfinished and occasionally crashes, but I haven't worked on it for a while and don't really have any plans for it.  I figured I'd release it because it's quite fun and good learning material.
+
+The source was originally created in a custom language that source to source compiles down to java, this distribution is the java.  Someday I will release the language specification, compiler, compiler source, and the original source of this program, but it needs more development to realize some of the more advanced features I have planned.
+
+Enjoy.
+
+Legal Notice:
+
+Don't do anything illegal with this code.  If you do, don't get caught.  Also by having this document on your hard drive you waive all legal rights to sue me for any sort of damages.
+
+License:
+
+This code is released under the Cyrus Cousins Very Flexible open source lisence:
+
+You have the right to:
+1:  Do whatever you want with it.
+2:  Give it to your friends and let them do what they want with it.
+
+Someone somewhere on the internet made some of the font xkcd.ttf and I made a few characters myself.  I think he wanted people to mention if they used his font, so I am mentioning it right now.  Google it and you might even find the original.
